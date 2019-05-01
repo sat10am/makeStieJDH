@@ -10,7 +10,7 @@ class Nav extends React.Component {
               <span className="label">Home</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/about">
               <span className="label">About</span>
             </a>
@@ -24,9 +24,12 @@ class Nav extends React.Component {
             <a href="/contact">
               <span className="label">Contact</span>
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="https://www.notion.so/SAT10AM-0a48ca7fee754baeb5a64979d499d07c">
+            <a
+              href="https://www.notion.so/SAT10AM-0a48ca7fee754baeb5a64979d499d07c"
+              target="_blank"
+            >
               Our Notion
             </a>
           </li>
