@@ -29,6 +29,7 @@ import jane from '../assets/images/member/jane.png'
 import seungwoo from '../assets/images/member/seungwoo.png'
 import wooddy from '../assets/images/member/wooddy.jpeg'
 import huihwan from '../assets/images/member/huihwan.jpg'
+import SeongYeob from '../assets/images/member/SeongYeob.png'
 
 const DEFAULT_IMAGES = [
   {
@@ -135,7 +136,7 @@ const DEFAULT_MEMBERS = [
   {
     name: 'SeongYeob',
     content: '저는 한국 최고의 리엑트 마스터 입니다.',
-    src: jane,
+    src: SeongYeob,
     email: '',
     github: 'https://github.com/ubitoffee',
   },
