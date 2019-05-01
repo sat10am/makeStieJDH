@@ -22,7 +22,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 import jaemin from '../assets/images/member/jaemin.jpg'
-import dali from '../assets/images/member/dali.jpg'
+import Chany from '../assets/images/member/Chany.jpg'
+import DoonDoon from '../assets/images/member/DoonDoon.jpeg'
+import GODORI from '../assets/images/member/GODORI.png'
+import jane from '../assets/images/member/jane.png'
+import seungwoo from '../assets/images/member/seungwoo.png'
+import wooddy from '../assets/images/member/wooddy.jpeg'
 import huihwan from '../assets/images/member/huihwan.jpg'
 
 const DEFAULT_IMAGES = [
@@ -72,25 +77,60 @@ const DEFAULT_IMAGES = [
 
 const DEFAULT_MEMBERS = [
   {
-    name: '재민',
-    content: '안녕하세요',
+    name: 'JAEMIN',
+    content: '힘내겠습니다....',
     src: jaemin,
     email: '',
-    github: '2xel',
+    github: 'https://github.com/2xel',
   },
   {
-    name: '달리',
-    content: '살바도르달리',
-    src: dali,
+    name: 'Chany',
+    content: 'Being awesome Front-end developer',
+    src: Chany,
     email: '',
     github: 'dali',
   },
   {
-    name: '희환',
+    name: 'DoonDoon',
+    content: '우리가 어떤 민족입니까?',
+    src: DoonDoon,
+    email: '',
+    github: 'https://github.com/DoonDoony',
+  },
+  {
+    name: 'GODORI',
+    content: 'I love 🍺 & 🎮',
+    src: GODORI,
+    email: '',
+    github: 'https://github.com/amorfati0310',
+  },
+  {
+    name: 'wooddy',
+    content: '🏃‍never stop learning 🏃',
+    src: wooddy,
+    email: '',
+    github: 'https://github.com/jwooss',
+  },
+  {
+    name: 'seungwoo',
+    content: 'Dream. The supreme master of Front-End developer with Back-End',
+    src: seungwoo,
+    email: '',
+    github: 'https://github.com/seungwoohong',
+  },
+  {
+    name: 'huihwan',
     content: '이제 5g 시대다',
     src: huihwan,
     email: '',
     github: '',
+  },
+  {
+    name: 'yesdoing',
+    content: '응 하고있어',
+    src: jane,
+    email: '',
+    github: 'https://github.com/Yesdoing',
   },
 ]
 

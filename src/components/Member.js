@@ -11,15 +11,17 @@ class Member extends Component {
     if (!members) return
 
     const member = members.map((obj, i) => {
+      const email = `mailto:${obj.email}`
       return (
         <article className="6u 12u$(xsmall) work-item" key={i}>
           <img src={obj.src} className="profile" />
-          <span>
-            <a class="email-icon" href="mailto:{obj.email}" />
+          <span style={{ position: 'relative', top: '26px', left: '-26px' }}>
+            <a class="icon fa-envelope-o" href={email} />
             <a
               class="fa fa-github github-icon-team-list"
-              href="https://github.com/{obj.github}"
+              href={obj.github}
               target="_blank"
+              style={{ position: 'relative', left: '5px' }}
             />
           </span>
           <h3>{obj.name}</h3>
