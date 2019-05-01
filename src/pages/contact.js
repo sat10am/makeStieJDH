@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
-class About extends React.Component {
+class Contact extends React.Component {
   constructor() {
     super()
 
@@ -57,10 +57,10 @@ class About extends React.Component {
           <meta name="description" content={siteDescription} />
         </Helmet>
 
-        <div id="main">About</div>
+        <div id="main">Contact</div>
       </Layout>
     )
   }
 }
 
-export default About
+export default Contact
