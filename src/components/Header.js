@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import octocat from '../assets/images/octocat.png'
 import Nav from './Nav'
 class Header extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Header extends React.Component {
       <header id="header">
         <div className="inner">
           <a href="#" className="image avatar">
-            <img src={avatar} alt="" />
+            <img src={octocat} alt="" className="octocat" />
           </a>
           <h1>
             <strong>SAT 10 A.M.</strong>
