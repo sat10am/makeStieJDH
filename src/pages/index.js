@@ -36,43 +36,46 @@ const DEFAULT_IMAGES = [
     id: '1',
     src: full01,
     thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 1',
+    description:
+      '피자를 먹느라 정신이 팔려 아무도 카메라를 쳐다보지 않는 우리들 ^^.',
   },
   {
     id: '2',
     src: full02,
     thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 2',
+    description:
+      '피자를 먹느라 정신이 팔려 아무도 카메라를 쳐다보지 않는 우리들 ^^.',
   },
   {
     id: '3',
     src: full03,
     thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 3',
+    description: '다이어트를 해야해서 아무것도 못먹고 있는 JAEMIN님.',
   },
   {
     id: '4',
     src: full04,
     thumbnail: thumb04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 4',
+    description: '대장님은 세팅중.',
   },
   {
     id: '5',
     src: full05,
     thumbnail: thumb05,
-    caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 5',
+    description: '해커톤 장소 넓고 좋아요. 하지만 와이파이는 느려요.',
   },
   {
     id: '6',
     src: full06,
     thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: '51 Labors Hackathon 6',
+    description:
+      'YO YesDoing 넌 잘생겼고 프로그래밍도 잘하고 그리고.. 인생의 진리지..',
   },
 ]
 
@@ -204,8 +207,8 @@ class HomeIndex extends React.Component {
   }
 
   render() {
-    const siteTitle = 'Gatsby Starter - Strata'
-    const siteDescription = 'Site description'
+    const siteTitle = 'SAT10AM'
+    const siteDescription = 'SAT10AM BLOG'
 
     return (
       <Layout>
