@@ -13,7 +13,7 @@ class Member extends Component {
     const member = members.map((obj, i) => {
       return (
         <article className="6u 12u$(xsmall) work-item" key={i}>
-          <img src={obj.src} />
+          <img src={obj.src} className="profile" />
           <span>
             <a class="email-icon" href="mailto:{obj.email}" />
             <a
