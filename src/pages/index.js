@@ -138,6 +138,22 @@ class HomeIndex extends React.Component {
 
     this.gotoNext()
   }
+  componentDidMount() {
+    var slides = ['10AM', 'CREATE', ''],
+      i = 1
+    var next = 0
+    setTimeout(function() {
+      var cap = setInterval(function() {
+        next++
+        i++
+        document.getElementById('bump-swap').innerHTML = slides[next]
+        if (i == slides.length) {
+          //All the words are displayed clear interval
+          clearInterval(cap)
+        }
+      }, 1750)
+    }, 900)
+  }
 
   render() {
     const siteTitle = 'Gatsby Starter - Strata'
@@ -153,19 +169,29 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2>
+              <div className="bump">
+                <div className="bump-half">SAT</div>
+                <div className="bump-half bump-slide">
+                  <div className="bump-half-item" id="bump-swap">
+                    <span className="yellow">10AM</span>
+                  </div>
+                  <div className="bump-half-here">10AM LOVE CODING</div>
+                </div>
+              </div>
+              {/* <h2>
                 SAT 10 A.M. for JS
                 <br />
                 안녕하세요. Java Script 스터디입니다.
-              </h2>
-            </header>
-            <ul className="actions">
-              <li>
-                <a href="https://github.com/sat10am" className="button">
-                  Github LINK
+              </h2> */}
+              <div>
+                <a
+                  href="https://github.com/sat10am"
+                  class="icon fa-github big-size"
+                >
+                  <span class="label">Github</span>
                 </a>
-              </li>
-            </ul>
+              </div>
+            </header>
           </section>
 
           <section id="two">
