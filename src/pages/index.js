@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
+
 import Member from '../components/Member'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -158,7 +159,6 @@ class HomeIndex extends React.Component {
                 안녕하세요. Java Script 스터디입니다.
               </h2>
             </header>
-            <p>어서오세요!</p>
             <ul className="actions">
               <li>
                 <a href="https://github.com/sat10am" className="button">
