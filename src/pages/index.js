@@ -29,6 +29,7 @@ import jane from '../assets/images/member/jane.png'
 import seungwoo from '../assets/images/member/seungwoo.png'
 import wooddy from '../assets/images/member/wooddy.jpeg'
 import huihwan from '../assets/images/member/huihwan.jpg'
+import SeongYeob from '../assets/images/member/SeongYeob.png'
 
 const DEFAULT_IMAGES = [
   {
@@ -85,7 +86,7 @@ const DEFAULT_MEMBERS = [
   },
   {
     name: 'Chany',
-    content: 'Being awesome Front-end developer',
+    content: '나에게 맞는 프리랜서 중개 사이트는? 위시캣!',
     src: Chany,
     email: '',
     github: 'dali',
@@ -99,28 +100,28 @@ const DEFAULT_MEMBERS = [
   },
   {
     name: 'GODORI',
-    content: 'I love 🍺 & 🎮',
+    content: '저는 술과 게임을 좋아합니다.',
     src: GODORI,
     email: '',
     github: 'https://github.com/amorfati0310',
   },
   {
     name: 'wooddy',
-    content: '🏃‍never stop learning 🏃',
+    content: 'nAver stop learning(네이버는 배우는걸 멈춰라)',
     src: wooddy,
     email: '',
     github: 'https://github.com/jwooss',
   },
   {
     name: 'seungwoo',
-    content: 'Dream. The supreme master of Front-End developer with Back-End',
+    content: '저는 앵귤러 1,2,3,4,5,6,7,8,9,10 다 잘합니다.',
     src: seungwoo,
     email: '',
     github: 'https://github.com/seungwoohong',
   },
   {
     name: 'huihwan',
-    content: '이제 5g 시대다',
+    content: '이제 5G 시대다',
     src: huihwan,
     email: '',
     github: '',
@@ -131,6 +132,13 @@ const DEFAULT_MEMBERS = [
     src: jane,
     email: '',
     github: 'https://github.com/Yesdoing',
+  },
+  {
+    name: 'SeongYeob',
+    content: '저는 한국 최고의 리엑트 마스터 입니다.',
+    src: SeongYeob,
+    email: '',
+    github: 'https://github.com/ubitoffee',
   },
 ]
 
