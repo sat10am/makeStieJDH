@@ -33,7 +33,12 @@ body {
 	color: #fab005
 }
 .big-size {
-	font-size: 40px; 	
+	font-size: 40px; 
+	margin: 10px;	
+}
+.github-link-container {
+	display: flex;
+	justify-content: flex-end;
 }
 
 

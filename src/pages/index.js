@@ -218,17 +218,12 @@ class HomeIndex extends React.Component {
                   <div className="bump-half-here">10AM LOVE CODING</div>
                 </div>
               </div>
-              {/* <h2>
-                SAT 10 A.M. for JS
-                <br />
-                안녕하세요. Java Script 스터디입니다.
-              </h2> */}
-              <div>
+              <div className="github-link-container">
                 <a
                   href="https://github.com/sat10am"
-                  class="icon fa-github big-size"
+                  className="icon fa-github big-size"
                 >
-                  <span class="label">Github</span>
+                  <span className="label">Github</span>
                 </a>
               </div>
             </header>
